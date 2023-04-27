@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    align-self: center;
+    width: 350px;
+    height: 50px;
+    border: 3px solid #ccc;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #5f504f;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+}
+.global-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-display{
+    height: 150px; 
+    width: 50%; 
+    background-color: #fff; 
+    border: 5px solid #ccc; 
+    font-size: 24px; 
+    box-sizing: border-box;
+    padding: 10px; 
+    margin-bottom: 10px;
+    overflow: auto; 
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+    margin-top: 30px;
+}
+
+.keys-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20%;
+    border: 5px solid #110404;
+}
+
+.row{
+    display: flex;
+}
+
+.key{
+    width: 80px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.space-key{
+    width: 300px;
+}
+
+button:active {
+    background-color: #ddd;
+  }
+
+.clear-btn{
+    width: 100px;
+    height: 50px;
+    border: 3px solid #ccc;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #5f504f;
+    color: #fff;
+}
